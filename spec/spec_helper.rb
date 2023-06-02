@@ -27,3 +27,9 @@ describe 'Solver#factorial' do
     end
   end
 end
+
+describe 'Solver#reverse' do
+  it 'should return the reverse of a string' do
+    @solver.reverse('chere').should == 'erehc'
+  end
+end
